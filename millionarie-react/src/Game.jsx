@@ -154,6 +154,7 @@ export default function Game() {
       safePlay(sfx.current?.win);
       setFinished(true);
       setStatus((prev) => prev || `You finished the game! 🎉 Total: $${money}`);
+      alert(`Congratulations! You finished the game with $${money}! 🎉`);
       return;
     }
 

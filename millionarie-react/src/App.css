@@ -1,9 +1,13 @@
 body {
   margin: 0;
-  background: radial-gradient(circle at top, #020617, #000);
+  background-image: url("./assets/image.png");
+  background-size: cover;
+  background-position: center;
   font-family: Arial, sans-serif;
   min-height: 100vh;
+  position: relative;
   color: white;
+
 }
 
 /* layout wrapper */
@@ -19,11 +23,17 @@ body {
 /* welcome */
 .welcome-container {
   text-align: center;
-  transform: translateY(-40px);
-  justify-self: center;
+  width: 100%;
+  transform: translateY(-50px);
+  position: fixed;
+  top: 0;
+  left:50%;
+  transform: translateX(-50%);
+  justify-self: right;
   max-width: 760px;
   margin: 0;
-  padding: 0;
+  padding:0;
+  
 }
 
 /* card */
@@ -33,8 +43,11 @@ body {
   background: #020617;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 0 40px rgba(34, 197, 94, 0.4);
+  box-shadow: 0 0 40px rgba(195, 255, 0, 0.4);
   animation: pop 0.6s ease;
+  position: relative;
+  left: 30%;
+  bottom: 5%;
 }
 
 .top {
@@ -51,7 +64,18 @@ body {
   gap: 12px;
   margin-top: 12px;
 }
-
+.subtitle {
+  opacity: 0.85;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgba(154, 255, 23, 0.73);
+}
+.amcet{ 
+  opacity: 0.85;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(255, 1, 141); 
+}
 button {
   background: #1e293b;
   color: white;
