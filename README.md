@@ -29,7 +29,8 @@ Dark themed glowing UI with animated title and responsive card layout.
 
 ## 👨‍💻 Author
 
-Built by **[Your Name Here]**
+Built by Babak Gasimzade
+Aim : Practice skills daily by creating mini project 
 
 ---
 
