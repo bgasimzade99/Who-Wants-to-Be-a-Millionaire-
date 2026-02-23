@@ -1,39 +1,34 @@
+🎮 Who Wants to Be a Millionaire – React Version
 
----
+A React-based interactive quiz game inspired by Who Wants to Be a Millionaire.
+The player answers multiple-choice questions under time pressure to win money up to $1,000,000.
 
-## ▶️ How to Run
+🚀 Features
 
-1. Download or clone the repository
-2. Open `index.html` in your browser
-3. Click **Start Game**
-4. Try to become a millionaire 💸
+🧠 Multiple-choice quiz system
 
----
+💰 Progressive money system ($1000 per correct answer)
 
-## 📸 Preview
+⏱️ 30-second timer for each question
 
-Dark themed glowing UI with animated title and responsive card layout.
+🔊 Sound effects (correct, wrong, win, clock)
 
----
+🎨 Animated RGB glowing title
 
-## 📌 Future Improvements
+🎯 Auto-disable options after selection
 
-- 🏆 Prize ladder sidebar
-- 📊 Progress bar timer
-- 🎯 Difficulty levels
-- 🧩 Randomized question order
-- 💾 Save high score (LocalStorage)
-- 🌍 Online leaderboard
+❌ Game over on wrong answer or timeout
 
----
+🔁 Restart / Play Again functionality
 
-## 👨‍💻 Author
+📱 Responsive layout (mobile-friendly)
 
-Built by Babak Gasimzade
-Aim : Practice skills daily by creating mini project 
+🛠️ Tech Stack
 
----
+React (Hooks: useState, useEffect, useRef)
 
-## ⭐ If you like this project
+Vite
 
-Give it a star on GitHub ⭐
+CSS Grid & Animations
+
+JavaScript (ES6+)
